@@ -1,11 +1,11 @@
 import React from "react";
 
-import ImpactosSP from "../assets/ImpactosSP.jpeg";
-import DesafiosSP from "../assets/DesafiosSP.jpg";
-import AguaSP from "../assets/AguaSP.jpg";
-import TieteSP from "../assets/TieteSP.jpg";
-import AcoesSP from "../assets/AcoesSP.jpeg";
-import Exemplos from "../assets/Exemplos.jpeg";
+import Importancia from "../assets/Importância.jpeg";
+import Beneficios from "../assets/Beneficios.jpg";
+import Riscos from "../assets/Riscos.jpg";
+import solucoes from "../assets/solucoes.jpeg";
+import Legislacao from "../assets/legislacao.jpeg";
+import Dicas from "../assets/dicas.jpeg";
 
 import { Link } from "react-router-dom";
 
@@ -15,15 +15,14 @@ const HomePage = () => {
       <div className="divide-y-4 divide-slate-400/25 flex flex-col gap-6 md:flex-row items-center justify-center m-8 ">
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Impactos da Mudança Climática em São Paulo
+            Importância da Reciclagem de Resíduos Eletrônicos
           </h2>
           <p className="text-lg">
-            Descrição dos efeitos das mudanças climáticas na cidade de São
-            Paulo, como aumento das temperaturas, alterações nos padrões de
-            chuva e eventos climáticos extremos. Consequências para a saúde
-            pública, infraestrutura urbana e meio ambiente local.{" "}
+            Explicação detalhada sobre os impactos ambientais negativos do
+            descarte inadequado de resíduos eletrônicos e a necessidade urgente
+            de reciclagem para mitigar esses efeitos.
             <Link
-              to="/impactos"
+              to="/explicacao"
               className=" flex gap-4 text-blue-500 hover:text-blue-700"
             >
               Saiba Mais
@@ -33,7 +32,7 @@ const HomePage = () => {
         <div
           className="m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md "
           style={{
-            backgroundImage: `url(${ImpactosSP})`,
+            backgroundImage: `url(${Importancia})`,
             height: "30vh",
             width: "25vw",
           }}
@@ -44,21 +43,21 @@ const HomePage = () => {
         <div
           className=" m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md "
           style={{
-            backgroundImage: `url(${DesafiosSP})`,
+            backgroundImage: `url(${Beneficios})`,
             height: "30vh",
             width: "25vw",
           }}
         ></div>
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Desafios do Saneamento Básico na Metrópole
+            Benefícios da Prática Sustentável
           </h2>
           <p className="text-lg">
-            Análise dos problemas relacionados ao tratamento de esgoto, coleta
-            de resíduos sólidos e poluição das águas na cidade. Impactos na
-            qualidade de vida da população e nos ecossistemas locais.{" "}
+            Destacar os benefícios ambientais e econômicos da reciclagem de
+            eletrônicos, incluindo a conservação de recursos naturais, a redução
+            da poluição e a criação de empregos na indústria de reciclagem.
             <Link
-              to="/desafios"
+              to="/beneficios"
               className=" flex gap-4 text-blue-500 hover:text-blue-700"
             >
               Saiba Mais
@@ -69,14 +68,14 @@ const HomePage = () => {
       <div className="divide-y-4 divide-slate-400/25 flex flex-col gap-6 md:flex-row items-center justify-center m-8 ">
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Importância do Acesso à Água Potável
+            Riscos Associados ao Descarte Inadequado
           </h2>
           <p className="text-lg">
-            Discussão sobre a disponibilidade e distribuição de água potável em
-            São Paulo. Necessidade de conservação e uso sustentável dos recursos
-            hídricos para garantir o acesso universal à água de qualidade.{" "}
+            Informações sobre os perigos da contaminação do solo, da água e do
+            ar causados pela decomposição de componentes tóxicos presentes nos
+            resíduos eletrônicos.
             <Link
-              to="/importancia"
+              to="/riscos"
               className=" flex gap-4 text-blue-500 hover:text-blue-700"
             >
               Saiba Mais
@@ -86,7 +85,7 @@ const HomePage = () => {
         <div
           className="m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md "
           style={{
-            backgroundImage: `url(${AguaSP})`,
+            backgroundImage: `url(${Riscos})`,
             height: "30vh",
             width: "25vw",
           }}
@@ -97,21 +96,21 @@ const HomePage = () => {
         <div
           className="m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md shadow-xl"
           style={{
-            backgroundImage: `url(${TieteSP})`,
+            backgroundImage: `url(${solucoes})`,
             height: "30vh",
             width: "25vw",
           }}
         ></div>
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Revitalização do Rio Tietê
+            Soluções para Lidar Responsavelmente com os Resíduos Eletrônicos
           </h2>
           <p className="text-lg">
-            Histórico da degradação do Rio Tietê e seus impactos ambientais e
-            sociais. Projetos e iniciativas em andamento para a revitalização do
-            rio e melhoria de sua qualidade.{" "}
+            Orientações práticas sobre como descartar eletrônicos de maneira
+            correta, incluindo a identificação de locais de reciclagem e
+            programas de coleta de lixo eletrônico.
             <Link
-              to="/tiete"
+              to="/solucoes"
               className=" flex gap-4 text-blue-500 hover:text-blue-700"
             >
               Saiba Mais
@@ -122,16 +121,14 @@ const HomePage = () => {
       <div className="divide-y-4 divide-slate-400/25 flex flex-col gap-6 md:flex-row items-center justify-center m-8 ">
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Ações Individuais e Coletivas para a Sustentabilidade
+            Dicas para Consumo e Produção Responsáveis
           </h2>
           <p className="text-lg">
-            Sugestões de práticas sustentáveis que os cidadãos podem adotar em
-            seu dia a dia para reduzir o impacto ambiental e promover a
-            sustentabilidade. Incentivo à participação em projetos comunitários
-            e ações voluntárias voltadas para a conservação do meio ambiente e a
-            melhoria da qualidade de vida na cidade.
+            Sugestões e orientações sobre como reduzir a geração de resíduos
+            eletrônicos por meio de escolhas conscientes de consumo e de
+            produtos duráveis e de fácil reciclabilidade.
             <Link
-              to="/acoes"
+              to="/dicas"
               className="text-blue-500 flex gap-4 hover:text-blue-700"
             >
               Saiba Mais
@@ -141,7 +138,7 @@ const HomePage = () => {
         <div
           className="m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md "
           style={{
-            backgroundImage: `url(${AcoesSP})`,
+            backgroundImage: `url(${Dicas})`,
             height: "30vh",
             width: "25vw",
           }}
@@ -151,22 +148,21 @@ const HomePage = () => {
         <div
           className="m-8 md:w-1/2 bg-cover bg-center bg-no-repeat bg-opacity-50 rounded-md shadow-xl"
           style={{
-            backgroundImage: `url(${Exemplos})`,
+            backgroundImage: `url(${Legislacao})`,
             height: "30vh",
             width: "25vw",
           }}
         ></div>
         <div className="md:w-1/2 p-4">
           <h2 className="text-3xl font-bold mb-4">
-            Exemplos de Sucesso e Boas Práticas
+            Legislação e Políticas Ambientais
           </h2>
           <p className="text-lg">
-            Casos de sucesso de projetos de sustentabilidade, saneamento e
-            revitalização urbana em São Paulo e em outras cidades do mundo.
-            Lições aprendidas e insights para inspirar novas iniciativas e
-            colaborações na comunidade.
+            Informações sobre regulamentações e políticas relacionadas à gestão
+            de resíduos eletrônicos, destacando iniciativas governamentais e
+            legislação ambiental aplicável.
             <Link
-              to="exemplos"
+              to="legislacao"
               className="text-blue-500 flex gap-4 hover:text-blue-700"
             >
               Saiba Mais

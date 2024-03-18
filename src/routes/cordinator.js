@@ -2,26 +2,26 @@ export const goToHome = (navigate) => {
   navigate("/");
 };
 
-export const goToImpactosPage = (navigate) => {
-  navigate("/impactos");
+export const goToExplicacaoPage = (navigate) => {
+  navigate("/explicacao");
 };
 
-export const goToDesafiosPage = (navigate) => {
-  navigate("/desafios");
+export const goToBeneficiosPage = (navigate) => {
+  navigate("/beneficios");
 };
 
-export const goToImportanciaPage = (navigate) => {
-  navigate("/importancia");
+export const goToRiscosPage = (navigate) => {
+  navigate("/riscos");
 };
 
-export const goToTietePage = (navigate) => {
-  navigate("/tiete");
+export const goToSolucoesPage = (navigate) => {
+  navigate("/solucoes");
 };
 
-export const goToTiAcoesPage = (navigate) => {
-  navigate("/acoes");
+export const goToDicasPage = (navigate) => {
+  navigate("/dicas");
 };
 
-export const goToExemplosPage = (navigate) => {
-  navigate("/exemplos");
+export const goToLegislacaoPage = (navigate) => {
+  navigate("/legislacao");
 };
